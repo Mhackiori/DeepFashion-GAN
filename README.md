@@ -6,10 +6,10 @@
     <img src="https://i.postimg.cc/KjRwhthZ/Cardigan.png" alt="Logo" width="150" height="150">
   </a>
 
-  <h1 align="center">DeepFashion GAN</h1>
+  <h1 align="center">DeepFashion GAN and cGAN</h1>
 
   <p align="center">
-    Generative Adversarial Network on DeepFashion Dataset on a base level
+    Generative Adversarial Network on DeepFashion Dataset at a base level
     <br />
     <a href="https://github.com/FrancescoMarchiori/DeepFashion-GAN/blob/main/report.pdf"><strong>See report »</strong></a>
     <br />
@@ -21,6 +21,34 @@
     <a>Keras</a>
   </p>
 </div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#intro">Introduction</a>
+      <ul>
+        <li><a href="#motiv">Motivations</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#datasets">Datasets</a>
+      <ul>
+        <li><a href="#mnist">Fashion MNIST</a></li>
+        <li><a href="#df">DeepFashion</a></li>
+      </ul>
+    </li>
+    <li>
+    <li>
+      <a href="#models">Models</a>
+      <ul>
+        <li><a href="#cgan">Conditional GAN</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+
 
 <div id="intro"></div>
 
