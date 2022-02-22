@@ -40,7 +40,6 @@
       </ul>
     </li>
     <li>
-    <li>
       <a href="#models">Models</a>
       <ul>
         <li><a href="#cgan">Conditional GAN</a></li>
