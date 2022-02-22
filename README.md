@@ -11,7 +11,7 @@
   <p align="center">
     Generative Adversarial Network on DeepFashion Dataset on a base level
     <br />
-    <a href=""><strong>Paper in progress »</strong></a>
+    <a href="https://github.com/FrancescoMarchiori/DeepFashion-GAN/blob/main/report.pdf"><strong>See report »</strong></a>
     <br />
     <br />
     <a>Python</a>
@@ -48,7 +48,7 @@ As anticipated, the datasets used are two.
 
 Fashion MNIST is a dataset of Zalando’s article images consisting of a training set of 60,000 examples and a test set of 10,000 examples where each example is a 28x28 grayscale image, associated with a label from 10 classes (the classes are T-shirt/Top, Trouser, Pullover, Dress, Coat, Sandal, Shirt,Sneaker, Bag and Ankle boot).
 
-![MNIST](/images/MNIST_ex.png?raw=true "MNIST")
+![MNIST](/images/MNIST.jpg?raw=true "MNIST")
 
 This dataset can be imported in various ways inside the Jupyter Notebook, for example by importing images one by one or by importing directly the `.csv` file present in the website, but Keras include a function call that allows for the import of the dataset in a more convenient way with the command `fashion\_mnist.load\_data()`, which will be used in order to import just the training data (used to train the GAN) and the label of the training data (used to name the plots of the model).
 
@@ -58,7 +58,7 @@ This dataset can be imported in various ways inside the Jupyter Notebook, for ex
 
 The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.htm) dataset is a dataset that comprises over 800,000 RGB fashion images labeled in 50 categories and every image also has some descriptive attributes. However, due to the limited capability of the local machine, only a subset of this dataset will be taken, comprising 9425 total images and 15 different classes (which are Blazer, Blouse, Cardigan, Dress, Jacket, Jeans, Jumpsuit, Romper, Shorts, Skirt, Sweater, Sweatpants, Tank, Tee and Top).
 
-![DF](/images/DF_ex.png?raw=true "DF")
+![DF](/images/DF.jpg?raw=true "DF")
 
 The total number of images had to be lower than the one of the Fashion MNIST dataset because not only every image has two additional channels (because they're all RGB), but they also have higher quality and different sizes than the one of the previous dataset.
 
